@@ -1,0 +1,52 @@
+html{
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 6px;
+    padding-bottom: 370px;
+}
+
+div.div1{
+    border-style: dashed;
+    border-color: purple;
+    padding-top: 175px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+}
+
+.p1{
+    text-align: center;
+    font-size: 12px;
+}
+
+.p2{
+    text-align: center;
+    color: green;
+    font-size: 8px;
+}
+
+.super{
+    vertical-align: super;
+    color: red;
+}
+
+h2{
+    color: orange;
+}
+
+.p3{
+    color: orange;
+    font-size: 26px;
+}
+
+.yellow{
+    color: yellow;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+
+.p4{
+    text-align: right;
+    color: purple;
+    font-size: 6px;
+}

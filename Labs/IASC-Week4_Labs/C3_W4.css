@@ -1,0 +1,36 @@
+html{
+    background-color: black;
+}
+
+.red{
+    color: red;
+}
+
+.dark-green{
+    color: darkgreen;
+}
+
+.purple{
+    color: purple;
+}
+
+.outer{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.middle{
+    background-color: green;
+}
+
+.inner{
+    border-style: dashed;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+body{
+    margin-top: 230px;
+}
+
