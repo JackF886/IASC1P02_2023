@@ -1,0 +1,32 @@
+#wrapper{
+    color: white;
+    height: 650px;
+    width: 100%;
+}
+
+#header{
+    background-color: red;
+    text-align: center;
+    height: 75px;
+    padding-top: 5px;
+}
+
+#content{
+    background-color: green;
+    height: 500px;
+    float: left;
+    width: 100%;
+    font-size: 12px;
+}
+
+#footer{
+    background-color: blue;
+    height: 75px;
+    float: left;
+    width: 100%;
+    font-size: 12px;
+}
+
+body{
+    margin: 10px 0;
+}
