@@ -8,11 +8,12 @@
     position: fixed;
     width:300px;
     height:70px;
-    left: 0px;
+    left: 0;
     top: -15px;
     background-color: lightblue;
     font-family: "Apple Chancery", "cursive";
     margin-top: -5px;
+    z-index: 5;
 }
 
 #nav-bar li{
@@ -23,15 +24,9 @@
 }
 
 
-#img-1{
+#img-1, #img-2{
     position: relative;
     float: left;
-    top: -10px;
-}
-
-#img-2 {
-    position: relative;
-    float: right;
     top: -10px;
 }
 
@@ -61,13 +56,14 @@ img{
 
 body{
     background-color: antiquewhite;
+    font-family: "Times New Roman", "serif";
 }
 
 #footer{
     position: absolute;
     width: 1100px;
     height: 200px;
-    background-color: honeydew;
+    background-color: lightcyan;
     text-align: center;
 }
 
@@ -87,6 +83,19 @@ div ol, ul{
     color: green;
 }
 
-div p{
-    
+div li{
+    text-decoration: underline;
+}
+
+li a, ol a{
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+ul{
+    background-color: rgba(240, 255, 240, 50%);
+}
+
+h3 + p{
+    text-decoration: line-through;
 }
