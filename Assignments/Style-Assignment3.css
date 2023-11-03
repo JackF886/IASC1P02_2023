@@ -1,0 +1,149 @@
+#wrapper{
+    width:1100px;
+    height: 1400px;
+    margin: 0 auto;
+}
+
+#header{
+    width: 1100px;
+    height: 120px;
+    background-color: #5CAEE5;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+
+
+}
+
+#header img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 60px;
+    top: 15px
+}
+
+#nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#nav{
+    margin-bottom: 50px;
+    background-color: #C0C0C0;
+    margin-top: -20px;
+}
+
+hr{
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#content-text{
+    width: 680px;
+    float: left;
+    margin-bottom: 1px;
+    margin-top: -21px;
+}
+
+#tools{
+    width: 400px;
+    float:right;
+    margin-top: -20px;
+    text-align: center;
+}
+
+#calendar{
+    width: 330px;
+    float: left;
+}
+
+#announcements{
+    width: 330px;
+    float:left;
+}
+
+#content h2, h3{
+    text-align: center;
+}
+
+.align{
+    margin-left: 80px;
+}
+
+#announcements, #calendar, #content-text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#announcements, #calendar{
+    margin-bottom: 20px;
+}
+
+#footer{
+    clear: both;
+    width: 777px;
+    height: 80px;
+    background-color: #5CAEE5;
+    padding: 20px 50px 20px 260px;
+    margin-left: 10px;
+}
+
+#footer img{
+    width: 80px;
+    height: 80px;
+    padding-right: 30px;
+}
+
+body{
+    font-family: Arial, "sans-serif";
+    background-color: #FAF9F6;
+}
+
+h2, h3{
+    background-color: rgba(82, 192, 255, 0.5);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.row{
+    display: block;
+    width: 250px;
+    height: 100px;
+    padding-left: 75px;
+    padding-bottom: 30px;
+}
+
+.grid{
+    width: 150px;
+    height: 150px;
+    padding-left:10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#content h3{
+    padding-top: 3px;
+    padding-bottom: 2px;
+    font-size: 20px;
+}
+
+.text{
+    padding-left: 35px;
+}
+
+#content h2{
+    font-size: 22px;
+}
+
+p{
+    font-size: 16px;
+}
+
+#tools h2{
+    font-size: 22px;
+}
