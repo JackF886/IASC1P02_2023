@@ -1,0 +1,114 @@
+body{
+    background-color: #BADFE7;
+}
+
+#wrapper{
+    width: 850px;
+    height: 1350px;
+    margin: 0 auto;
+}
+
+#nav-top{
+    width: 850px;
+    height: 120px;
+    background-color: #BADFE7;
+    position: fixed;
+    margin-top: -130px;
+}
+
+#nav-top a, input, .user{
+    margin-top: -50px;
+    margin-right: 10px;
+    position: relative;
+    top: -55px;
+}
+
+#nav-top button{
+    font-size: 16px;
+}
+
+#nav-top img{
+    width: 120px;
+    height: 120px;
+    padding-right: 20px;
+}
+
+input{
+    margin-left: 80px;
+}
+
+#head{
+    width: 850px;
+    height: 200px;
+    margin-top: 130px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+button{
+    border-radius: 12px;
+    border: 2px solid lightgreen;
+    background-color: #C2EDCE;
+    padding: 5px 12px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #C4F1Fe;
+}
+
+#bod h2{
+    text-align: center;
+}
+
+#text-content{
+    width: 600px;
+    height: 850px;
+    float: right;
+    padding-top: 40px;
+}
+
+#text-content p{
+    padding-bottom: 20px;
+}
+
+#img-content{
+    width: 200px;
+    height: 850px;
+    float: left;
+}
+
+#img-content img{
+    width: 180px;
+    height: 180px;
+    margin-top: 55px;
+}
+
+#foot{
+    width: 850px;
+    height: 200px;
+    clear: both;
+    padding-top: 35px;
+    background-color: #388087;
+    text-align: center;
+}
+
+#foot p, a{
+    color: #C4F1Fe;
+}
+
+.link{
+    margin: 15px;
+}
+
+hr{
+    height: 3px;
+    background: black;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+

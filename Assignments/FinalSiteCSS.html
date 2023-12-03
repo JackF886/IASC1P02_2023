@@ -1,0 +1,158 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <!--The head contains all of the confirguration items for our page-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta content="en-us" http-equiv="Content-Language" />
+  <title>Final Website - CSS</title>
+  <link href="Main-CSS.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+<div id="wrapper">
+
+  <div id="nav-top">
+    <img src="ran.png" alt="Website Logo"/>
+    <a class= "button" href="FinalSite.html"><button type="button">Home</button></a>
+    <a class= "button" href="Useless.html"><button type="button">HTML</button></a>
+    <a class= "button" href="FinalSiteCSS.html"><button type="button">CSS</button></a>
+    <a class= "button" href="FinalSiteJS.html"><button type="button">JavaScript</button></a>
+    <input type="text" id="searchInput" value="Search..." />
+    <button class= "user" onclick="searchText()">Search</button>
+  </div>
+
+
+  <div id="bod2">
+    <h2>CSS Introduction</h2>
+
+    <div id="text-content-css">
+      <h3>Syntax</h3>
+      <p>Praesent nec fringilla dui. Etiam interdum mattis diam vel convallis. Mauris consectetur a purus quis efficitur. Quisque posuere tincidunt velit, ac accumsan augue pulvinar sed. Maecenas ultricies vulputate ante, vitae commodo justo imperdiet ac. Vivamus ornare metus pellentesque blandit feugiat. Sed tristique nibh sed facilisis bibendum. Donec at placerat ipsum, at tempor nunc. Fusce quam quam, rhoncus ac sapien congue, varius tristique dui. Donec tincidunt metus nec ligula efficitur, id rhoncus elit convallis. Phasellus nec ali</p>
+      <br />
+
+      <h3>Functions</h3>
+      <p>Donec nec fringilla purus, non interdum risus. Morbi id enim ut nibh aliquet commodo id at mi. Morbi nec lobortis justo. Maecenas convallis odio facilisis velit aliquam, lobortis laoreet quam bibendum. Nam ut massa sit amet enim pretium sodales at quis lorem. Curabitur vestibulum placerat cursus. Nunc eu augue quam. In nulla nunc, faucibus eget porta quis, fermentum nec enim. Quisque tempor tincidunt erat, sit amet sollicitudin ipsum egestas at. Quisque mauris ex, lobortis vitae arcu non, semper imperdiet leo. Pellentesque euismod, tortor id commodo dapibus, nibh neque suscipit nunc, sit amet tempus ipsum lorem sit amet nisl.</p>
+
+
+      <h3>Selectors</h3>
+      <ul>
+        <li>+ : Praesent rhoncus arcu et lacinia fringilla.</li>
+        <li>~ : Morbi dignissim nulla vel nunc pellentesque ultrices.</li>
+        <li>* : Vivamus bibendum ipsum efficitur lorem porttitor, vel convallis lacus tempor.</li>
+        <li>Combination of Selectors: Donec dapibus dui ut elit aliquam, ac pellentesque dolor commodo.</li>
+        <li># : In quis mi vitae mauris facilisis ultricies gravida dictum lacus.</li>
+        <li>. : Vivamus bibendum ipsum efficitur lorem porttitor, vel convallis lacus tempor.</li>
+        <li>, : Cras euismod metus ut leo ultrices, eget commodo arcu dapibus.</li>
+        <li>> : Quisque nec nisl ultricies, aliquet justo sed, vulputate elit.</li>
+      </ul>
+    </div>
+
+    <div id="img-content-css">
+      <img src="ran.png" alt="HTML Logo" />
+      <img src="ran.png" alt="CSS Logo" />
+        <pre>
+<span class="bold">Code Examples Here</span>
+body{ ← Selector
+background-color: lightblue; ← Function
+}
+
+h1{
+color: white;
+text-align: center;
+}
+
+p{
+font-family: verdana;
+font-size: 20px;
+}
+        </pre>
+    </div>
+
+    <hr/>
+
+  </div>
+
+  <div id="animations">
+    <h3 class="transform">Cool Animations!</h3>
+    <div id="animation-code">
+      <pre>
+<span class="bold">Slide-In Code</span>
+[Selector Here] {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+        </pre>
+
+        <pre>
+<span class="bold">Pan In/Out Code</span>
+[Selector Here] {
+    animation-duration: 3s;
+    animation-name: zoom;
+}
+
+@keyframes zoom {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+      </pre>
+    </div>
+    <div id="animations-text">
+      <h3>Sliding Text</h3>
+      <p id="ani-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo consectetur nulla, sit amet eleifend mauris tempor ut. Quisque pharetra urna ut diam tempor, vel dignissim enim sollicitudin. Aenean rutrum nisl at hendrerit ornare. Aenean sed facilisis nulla. Duis vel nisi porttitor, interdum ex at, molestie turpis. Nullam sagittis risus non mollis tincidunt. Vestibulum nec pellentesque tortor. Phasellus libero eros, viverra eu sem vel, sagittis laoreet erat. Mauris sit amet nulla vel tortor bibendum vehicula. In hac habitasse platea dictumst.
+      </p>
+      <button id="startAnimationButton">Animate</button>
+
+
+      <h3 class="move">Panning Text</h3>
+      <p id="ani-2">Praesent nec fringilla dui. Etiam interdum mattis diam vel convallis. Mauris consectetur a purus quis efficitur. Quisque posuere tincidunt velit, ac accumsan augue pulvinar sed. Maecenas ultricies vulputate ante, vitae commodo justo imperdiet ac. Vivamus ornare metus pellentesque blandit feugiat. Sed tristique nibh sed facilisis bibendum. Donec at placerat ipsum, at tempor nunc. Fusce quam quam, rhoncus ac sapien congue, varius tristique dui. Donec tincidunt metus nec ligula efficitur, id rhoncus elit convallis. Phasellus nec aliquam ipsum, in fringilla ligula. Curabitur mollis ex sed laoreet tincidunt. Nulla facilisi.</p>
+      <button id="startAnimationButton2">Animate</button>
+    </div>
+  </div>
+
+
+  <div id="foot">
+    <a href=""><img src="socialMedia.png" alt="Icon" /></a>
+    <a href=""><img src="socialMedia.png" alt="Icon" /></a>
+    <a href=""><img src="socialMedia.png" alt="Icon" /></a>
+    <a href=""><img src="socialMedia.png" alt="Icon" /></a>
+    <a href=""><img src="socialMedia.png" alt="Icon" /></a>
+    <br/>
+
+    <a class="link" href="FinalSite.html">Home</a>
+    <a class="link" href="Useless.html">HTML</a>
+    <a class="link" href="FinalSiteCSS.html">CSS</a>
+    <a class="link" href="FinalSiteJS.html">JavaScript</a>
+
+    <p>Copyright © 2023</p>
+    <p>Designed by Jack Fang</p>
+
+  </div>
+
+</div>
+<script type="text/javascript" src="J2.js"></script>
+
+</body></html>

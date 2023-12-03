@@ -1,0 +1,172 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <!--The head contains all of the confirguration items for our page-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta content="en-us" http-equiv="Content-Language" />
+    <title>Final Website - JS</title>
+    <link href="Main-JS.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <div id="nav-top">
+        <img src="ran.png" alt="Website Logo"/>
+        <a class= "button" href="FinalSite.html"><button type="button">Home</button></a>
+        <a class= "button" href="Useless.html"><button type="button">HTML</button></a>
+        <a class= "button" href="FinalSiteCSS.html"><button type="button">CSS</button></a>
+        <a class= "button" href="FinalSiteJS.html"><button type="button">JavaScript</button></a>
+        <input type="text" id="searchInput" value="Search..." />
+        <button class= "user" onclick="searchText()">Search</button>
+    </div>
+
+
+    <div id="bod2">
+        <h2>JavaScript Introduction</h2>
+
+
+        <div id="text-content-css">
+            <h3>Syntax</h3>
+            <p>Etiam nec consequat tellus. Maecenas ante nisl, pharetra eu enim eu, cursus facilisis leo. Quisque quis mi vel nisi molestie rutrum. Proin venenatis faucibus leo, sed iaculis risus ullamcorper vel. Integer eu venenatis arcu. Praesent porta odio purus, at lacinia urna commodo ac. Nam efficitur commodo eros. Ut ac sem in odio luctus blandit. Vestibulum congue sit amet nunc a vulputate. Pellentesque sollicitudin, magna at lobortis dignissim, metus ipsum interdum nisl, eu sodales ex mauris ut dui. Sed posuere turpis eget leo rutrum, condimentum malesuada sapien convallis.</p>
+            <br />
+
+            <h3>Methods and Functions</h3>
+            <ul>
+                <li><span class="bold">getElementByID</span>: Sed a purus ac mauris laoreet ornare in id lectus.</li>
+                <li><span class="bold">function methodName(){</span>: Sed quis neque at massa euismod iaculis.</li>
+                <li><span class="bold">.innerHTML</span>: Quisque vulputate enim quis ex eleifend semper.</li>
+                <li class="bold">Important Concepts
+                    <ul>
+                        <li><span class="bold">getMethods</span>: Pellentesque sodales magna non purus faucibus, ac bibendum dui auctor.</li>
+                        <li><span class="bold">Variable Assignments</span>: In laoreet justo sed turpis consectetur, sollicitudin laoreet elit tincidunt.</li>
+                    </ul>
+                </li>
+                <li><span class="bold">Variables</span>: Nam in elit in nulla luctus tincidunt semper vel nunc.</li>
+                <li><span class="bold">Method Parameters</span>: Maecenas id sapien eget sem eleifend porttitor vitae sit amet nunc.</li>
+            </ul>
+
+            <br/>
+
+            <h3>Variables</h3>
+            <p>Maecenas viverra ullamcorper scelerisque. Nulla quis urna eget nibh efficitur tempor. Etiam vehicula sapien nec lorem viverra scelerisque. Suspendisse elementum purus et eleifend dictum. Duis vitae lacinia leo. Duis risus magna, venenatis ut ante id, posuere scelerisque nulla. Proin finibus pulvinar magna non sollicitudin. In at faucibus turpis, in interdum mauris. Donec et odio sagittis diam commodo cursus. Donec eu pretium justo. Nulla laoreet dui orci, vel condimentum mauris interdum sit amet. Vivamus erat lorem, volutpat ut nunc id, vulputate vestibulum nisl. Proin porta sed mauris a commodo. Ut maximus vulputate metus at ullamcorper.</p>
+        </div>
+        <div id="img-content-css">
+            <img src="ran.png" alt="HTML Logo" />
+            <img src="ran.png" alt="CSS Logo" />
+            <pre>
+<span class="bold">Code Examples Here</span>
+function add(){
+    var n1= Number
+    (document.getElementById("n1").value);
+
+    console.log(n1);
+    var n2= Number
+    (document.getElementById("n2").value);
+
+    console.log(n2);
+    var total= n1+n2;
+    console.log(total);
+
+    document.getElementById
+    ("out").innerHTML=String(total);
+}
+        </pre>
+        </div>
+
+        <hr/>
+
+    </div>
+
+    <div id="animations">
+        <h3 class="transform">Useful Functions!</h3>
+        <div id="animation-code">
+      <pre>
+<span class="bold">Progress Bar Code</span>
+function animateProgressBar() {
+    var progressBar =
+    document.getElementById("progress-bar");
+    var duration = 4000; // 5 seconds
+    var interval = 50;
+
+    var start = null;
+    function step(timestamp) {
+        if (!start) start = timestamp;
+
+        var progress = timestamp - start;
+        progressBar.style.width =
+          (progress / duration) * 100 + "%";
+
+        if (progress < duration) {
+            requestAnimationFrame(step);
+        }
+    }
+    requestAnimationFrame(step);
+}
+        </pre>
+
+            <pre>
+
+
+
+
+<span class="bold">Working Clock Code</span>
+function updateClock() {
+    var now = new Date();
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+    var seconds = now.getSeconds();
+
+    // Format the time as HH:MM:SS
+    var formattedTime = padZero(hours) + ":"
+        + padZero(minutes) + ":"
+        + padZero(seconds);
+
+    // Update the clock element
+    document.getElementById
+     ("clock").textContent= formattedTime;
+}
+      </pre>
+        </div>
+        <div id="animations-text">
+            <h3>Progress Bar</h3>
+            <p id="ani-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo consectetur nulla, sit amet eleifend mauris tempor ut. Quisque pharetra urna ut diam tempor, vel dignissim enim sollicitudin. Aenean rutrum nisl at hendrerit ornare. Aenean sed facilisis nulla. Duis vel nisi porttitor, interdum ex at, molestie turpis. Nullam sagittis risus non mollis tincidunt. Vestibulum nec pellentesque tortor. Phasellus libero eros, viverra eu sem vel, sagittis laoreet erat. Mauris sit amet nulla vel tortor bibendum vehicula. In hac habitasse platea dictumst.</p>
+            <div id="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+            <br/>
+            <button onclick="startProgress()">Start Progress</button>
+
+
+            <h3>Working Clock</h3>
+            <p id="ani-2">Praesent nec fringilla dui. Etiam interdum mattis diam vel convallis. Mauris consectetur a purus quis efficitur. Quisque posuere tincidunt velit, ac accumsan augue pulvinar sed. Maecenas ultricies vulputate ante, vitae commodo justo imperdiet ac. Vivamus ornare metus pellentesque blandit feugiat. Sed tristique nibh sed facilisis bibendum. Donec at placerat ipsum, at tempor nunc. Fusce quam quam, rhoncus ac sapien congue, varius tristique dui. Donec tincidunt metus nec ligula efficitur, id rhoncus elit convallis. Phasellus nec aliquam ipsum, in fringilla ligula. Curabitur mollis ex sed laoreet tincidunt. Nulla facilisi.</p>
+
+            <div id="clock"></div>
+
+        </div>
+    </div>
+
+
+    <div id="foot">
+        <a href=""><img src="socialMedia.png" alt="Icon" /></a>
+        <a href=""><img src="socialMedia.png" alt="Icon" /></a>
+        <a href=""><img src="socialMedia.png" alt="Icon" /></a>
+        <a href=""><img src="socialMedia.png" alt="Icon" /></a>
+        <a href=""><img src="socialMedia.png" alt="Icon" /></a>
+        <br/>
+
+        <a class="link" href="FinalSite.html">Home</a>
+        <a class="link" href="Useless.html">HTML</a>
+        <a class="link" href="FinalSiteCSS.html">CSS</a>
+        <a class="link" href="FinalSiteJS.html">JavaScript</a>
+
+        <p>Copyright © 2023</p>
+        <p>Designed by Jack Fang</p>
+
+    </div>
+
+</div>
+<script type="text/javascript" src="J1.js"></script>
+
+</body></html>

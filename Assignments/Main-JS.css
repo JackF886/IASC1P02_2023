@@ -1,0 +1,187 @@
+
+/* ------------------------- */
+
+
+
+/* ----------------------------------------- */
+
+body{
+    background-color: #BADFE7;
+}
+
+#wrapper{
+    width: 850px;
+    height: 1350px;
+    margin: 0 auto;
+}
+
+#nav-top{
+    width: 850px;
+    height: 120px;
+    background-color: #BADFE7;
+    position: fixed;
+    margin-top: -130px;
+}
+
+#nav-top a, input, .user{
+    margin-top: -50px;
+    margin-right: 10px;
+    position: relative;
+    top: -55px;
+}
+
+#nav-top button{
+    font-size: 16px;
+}
+
+#nav-top img{
+    width: 120px;
+    height: 120px;
+    padding-right: 20px;
+}
+
+input{
+    margin-left: 80px;
+}
+
+#bod2{
+    margin-top: 130px;
+    padding-top: 20px;
+}
+
+#text-content-css{
+    width: 500px;
+    height: 800px;
+    float: left;
+}
+
+#img-content-css{
+    float: right;
+    width: 350px;
+    height: 800px;
+}
+
+#img-content-css img, pre{
+    width: 200px;
+    height: 200px;
+    margin-top: -20px;
+    padding-left: 80px;
+    padding-bottom: 90px;
+}
+
+pre{
+    font-size: 12px;
+}
+
+#mid{
+    padding-bottom: 80px;
+}
+
+#foot{
+    width: 850px;
+    height: 200px;
+    clear: both;
+    padding-top: 35px;
+    background-color: #388087;
+    text-align: center;
+}
+
+#foot p, a{
+    color: #C4F1Fe;
+}
+
+.link{
+    margin: 15px;
+}
+
+#animations{
+    text-align: center;
+    clear: both;
+}
+
+#animation-code{
+    width: 300px;
+    height: 600px;
+    float: left;
+    text-align: left;
+    padding-top: 45px;
+    margin-left: -80px;
+    font-size: 12px;
+}
+
+#animations-text{
+    width: 490px;
+    height: 600px;
+    float: right;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+button{
+    border-radius: 12px;
+    border: 2px solid lightgreen;
+    background-color: #C2EDCE;
+    padding: 5px 12px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #C4F1Fe;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+hr{
+    height: 3px;
+    background: black;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+#progress-container {
+    width: 500px;
+    height: 20px;
+    border: 1px solid #4caf50;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: #C2EDCE;
+}
+
+#progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #388087;
+    transition: width 1s ease-in-out;
+}
+
+#clock {
+    width:200px;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.transform{
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
