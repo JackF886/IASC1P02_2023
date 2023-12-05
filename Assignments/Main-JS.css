@@ -46,19 +46,23 @@ input{
 
 #bod2{
     margin-top: 130px;
-    padding-top: 20px;
 }
 
 #text-content-css{
     width: 500px;
-    height: 800px;
+    height: 850px;
     float: left;
 }
 
 #img-content-css{
     float: right;
     width: 350px;
-    height: 800px;
+    height: 850px;
+}
+
+#img-content-css .wide{
+    width: 300px;
+    margin-left: -45px;
 }
 
 #img-content-css img, pre{
@@ -66,7 +70,7 @@ input{
     height: 200px;
     margin-top: -20px;
     padding-left: 80px;
-    padding-bottom: 90px;
+    padding-bottom: 110px;
 }
 
 pre{
@@ -104,7 +108,7 @@ pre{
     height: 600px;
     float: left;
     text-align: left;
-    padding-top: 45px;
+    padding-top: 25px;
     margin-left: -80px;
     font-size: 12px;
 }
@@ -177,6 +181,17 @@ h2{
 .transform{
     font-size: 24px;
     text-decoration: underline;
+}
+
+#animations-text button{
+    margin-bottom: 20px;
+}
+
+.icon img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    padding-bottom: 20px;
 }
 
 

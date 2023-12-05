@@ -13,7 +13,7 @@
 <div id="wrapper">
 
   <div id="nav-top">
-    <img src="ran.png" alt="Website Logo"/>
+    <img src="Logo.png" alt="Website Logo"/>
     <a class= "button" href="FinalSite.html"><button type="button">Home</button></a>
     <a class= "button" href="Useless.html"><button type="button">HTML</button></a>
     <a class= "button" href="FinalSiteCSS.html"><button type="button">CSS</button></a>
@@ -28,29 +28,29 @@
 
     <div id="text-content-css">
       <h3>Syntax</h3>
-      <p>Praesent nec fringilla dui. Etiam interdum mattis diam vel convallis. Mauris consectetur a purus quis efficitur. Quisque posuere tincidunt velit, ac accumsan augue pulvinar sed. Maecenas ultricies vulputate ante, vitae commodo justo imperdiet ac. Vivamus ornare metus pellentesque blandit feugiat. Sed tristique nibh sed facilisis bibendum. Donec at placerat ipsum, at tempor nunc. Fusce quam quam, rhoncus ac sapien congue, varius tristique dui. Donec tincidunt metus nec ligula efficitur, id rhoncus elit convallis. Phasellus nec ali</p>
-      <br />
+      <p>The syntax used in CSS is quite different than other languages as there is no actual content that's associated with the code. A style sheet often comes empty, and the programmer can add a combination of selectors, separators and functions to target specific elements in the HTML and modify it. The most common way to do this is to have the desired class, ID or tag preceding a pair of curly braces that enclose the styles the programmer wishes to apply. Within those curly braces are contained functions and attributes used to make each and every website that much more visually appealing. Like most languages used, a semicolon is used at the end of each line of code (not white space), and colons used to specify the attributes of functions.</p>
+
 
       <h3>Functions</h3>
-      <p>Donec nec fringilla purus, non interdum risus. Morbi id enim ut nibh aliquet commodo id at mi. Morbi nec lobortis justo. Maecenas convallis odio facilisis velit aliquam, lobortis laoreet quam bibendum. Nam ut massa sit amet enim pretium sodales at quis lorem. Curabitur vestibulum placerat cursus. Nunc eu augue quam. In nulla nunc, faucibus eget porta quis, fermentum nec enim. Quisque tempor tincidunt erat, sit amet sollicitudin ipsum egestas at. Quisque mauris ex, lobortis vitae arcu non, semper imperdiet leo. Pellentesque euismod, tortor id commodo dapibus, nibh neque suscipit nunc, sit amet tempus ipsum lorem sit amet nisl.</p>
+      <p>Functions are at the heart of CSS, being responsible for and making up the bulk of CSS content. While the information on functions can be conveyed for much longer and further in depth, it's important to define and understand them first. A function is code that holds some sort of property that can be passed a value to specify and apply that property to an element. In CSS, it is commonly used for changing the font size or even the color of the webpage. Red itself is not a function, but color is since it possesses a property that can be specified by a value.</p>
 
-
+      <br/>
       <h3>Selectors</h3>
       <ul>
-        <li>+ : Praesent rhoncus arcu et lacinia fringilla.</li>
-        <li>~ : Morbi dignissim nulla vel nunc pellentesque ultrices.</li>
-        <li>* : Vivamus bibendum ipsum efficitur lorem porttitor, vel convallis lacus tempor.</li>
-        <li>Combination of Selectors: Donec dapibus dui ut elit aliquam, ac pellentesque dolor commodo.</li>
-        <li># : In quis mi vitae mauris facilisis ultricies gravida dictum lacus.</li>
-        <li>. : Vivamus bibendum ipsum efficitur lorem porttitor, vel convallis lacus tempor.</li>
-        <li>, : Cras euismod metus ut leo ultrices, eget commodo arcu dapibus.</li>
-        <li>> : Quisque nec nisl ultricies, aliquet justo sed, vulputate elit.</li>
+          <li><span class="bold">+</span> : Known as the "next sibling" selector</li>
+          <li><span class="bold">~</span> : Known as the "subsequent sibling" selector</li>
+          <li><span class="bold">*</span> : Used to select all of the tagged elements. Be careful when using this as it is common to target unintended elements!</li>
+          <li><span class="bold">Combination of Selectors</span>: Selectors can be combined with one another to create more specific designs, or to style multiple selected elements</li>
+          <li><span class="bold">#</span> : Used to target tags that have been assigned an ID in the html</li>
+          <li><span class="bold">.</span> : Used to target tags that have been assigned a class in th html</li>
+          <li><span class="bold">,</span> : Used to apply the styling in the enclosed curly braces to multiple selectors</li>
+          <li><span class="bold">></span> : Used to select a specific tag with a specific parent</li>
       </ul>
     </div>
 
     <div id="img-content-css">
-      <img src="ran.png" alt="HTML Logo" />
-      <img src="ran.png" alt="CSS Logo" />
+      <img src="css2.png" alt="CSS Syntax" />
+      <img src="csss.png" alt="CSS Selectors" />
         <pre>
 <span class="bold">Code Examples Here</span>
 body{ ← Selector
@@ -122,35 +122,35 @@ font-size: 20px;
     </div>
     <div id="animations-text">
       <h3>Sliding Text</h3>
-      <p id="ani-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo consectetur nulla, sit amet eleifend mauris tempor ut. Quisque pharetra urna ut diam tempor, vel dignissim enim sollicitudin. Aenean rutrum nisl at hendrerit ornare. Aenean sed facilisis nulla. Duis vel nisi porttitor, interdum ex at, molestie turpis. Nullam sagittis risus non mollis tincidunt. Vestibulum nec pellentesque tortor. Phasellus libero eros, viverra eu sem vel, sagittis laoreet erat. Mauris sit amet nulla vel tortor bibendum vehicula. In hac habitasse platea dictumst.
+      <p id="ani-1">The following code uses more advanced CSS concepts. While it is out of the scope of an introduction to the language, I always felt that it's encouraging and inspiring to see the end of the road. As a result, the following text being read has been animated to fly in from the right of your screen! This is done through a combination of concepts, mainly the use of CSS's animate and keyframes functionality. It allows the user to pick an element to edit and define properties too. As the name keyframes suggests, they work with a beginning and ending "snapshot", dividing the animation into frames based on the predetermined duration of an action.
       </p>
       <button id="startAnimationButton">Animate</button>
 
 
       <h3 class="move">Panning Text</h3>
-      <p id="ani-2">Praesent nec fringilla dui. Etiam interdum mattis diam vel convallis. Mauris consectetur a purus quis efficitur. Quisque posuere tincidunt velit, ac accumsan augue pulvinar sed. Maecenas ultricies vulputate ante, vitae commodo justo imperdiet ac. Vivamus ornare metus pellentesque blandit feugiat. Sed tristique nibh sed facilisis bibendum. Donec at placerat ipsum, at tempor nunc. Fusce quam quam, rhoncus ac sapien congue, varius tristique dui. Donec tincidunt metus nec ligula efficitur, id rhoncus elit convallis. Phasellus nec aliquam ipsum, in fringilla ligula. Curabitur mollis ex sed laoreet tincidunt. Nulla facilisi.</p>
+      <p id="ani-2">Similar to the concept above, the very text you are reading will fly in from the right of your screen to the left. However, this animation is more involved, adding in a third "snapshot" for the animation to transition between. Additionally, the manipulation of the text's size, from growing and then shrinking helps clearly illustrate the frame data within an animation. While it is still quite simple in terms of possible animations, I feel it's important to show the "next step" in animations. Such a small step can make such a drastic change in the appearance and visual impact of the animation. Personally, it interests me and makes me imagine all the possibilities too.
+      </p>
       <button id="startAnimationButton2">Animate</button>
     </div>
   </div>
 
+    <div id="foot">
+        <a class="icon" href="https://twitter.com/"><img src="twitter.png" alt="Twitter logo" /></a>
+        <a class="icon" href="https://www.instagram.com/"><img src="insta.png" alt="Instagram logo" /></a>
+        <a class="icon" href="https://discord.com/"><img src="disc2.png" alt="Discord logo" /></a>
+        <a class="icon" href="https://ca.linkedin.com/"><img src="linkdin.png" alt="Linkedin logo" /></a>
+        <a class="icon" href="https://www.reddit.com/"><img src="reddit.png" alt="Reddit logo" /></a>
+        <br/>
 
-  <div id="foot">
-    <a href=""><img src="socialMedia.png" alt="Icon" /></a>
-    <a href=""><img src="socialMedia.png" alt="Icon" /></a>
-    <a href=""><img src="socialMedia.png" alt="Icon" /></a>
-    <a href=""><img src="socialMedia.png" alt="Icon" /></a>
-    <a href=""><img src="socialMedia.png" alt="Icon" /></a>
-    <br/>
+        <a class="link" href="FinalSite.html">Home</a>
+        <a class="link" href="Useless.html">HTML</a>
+        <a class="link" href="FinalSiteCSS.html">CSS</a>
+        <a class="link" href="FinalSiteJS.html">JavaScript</a>
 
-    <a class="link" href="FinalSite.html">Home</a>
-    <a class="link" href="Useless.html">HTML</a>
-    <a class="link" href="FinalSiteCSS.html">CSS</a>
-    <a class="link" href="FinalSiteJS.html">JavaScript</a>
+        <p>Copyright © 2023</p>
+        <p>Designed by Jack Fang</p>
 
-    <p>Copyright © 2023</p>
-    <p>Designed by Jack Fang</p>
-
-  </div>
+    </div>
 
 </div>
 <script type="text/javascript" src="J2.js"></script>

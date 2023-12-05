@@ -82,19 +82,19 @@ input{
 
 #bod2{
     margin-top: 130px;
-    padding-top: 20px;
 }
 
 #text-content-css{
     width: 500px;
-    height: 800px;
+    height: 850px;
     float: left;
 }
 
 #img-content-css{
     float: right;
     width: 350px;
-    height: 800px;
+    height: 850px;
+    padding-top: 15px;
 }
 
 #img-content-css img, pre{
@@ -164,7 +164,7 @@ button:hover{
 }
 
 .bold{
-    font-size: 20px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -175,6 +175,7 @@ button:hover{
 
 hr{
     height: 3px;
+    width: 850px;
     background: black;
 }
 
@@ -187,7 +188,12 @@ h2{
     text-decoration: underline;
 }
 
-
+.icon img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
 
 
 

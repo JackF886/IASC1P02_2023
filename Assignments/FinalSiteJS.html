@@ -13,7 +13,7 @@
 <div id="wrapper">
 
     <div id="nav-top">
-        <img src="ran.png" alt="Website Logo"/>
+        <img src="Logo.png" alt="Website Logo"/>
         <a class= "button" href="FinalSite.html"><button type="button">Home</button></a>
         <a class= "button" href="Useless.html"><button type="button">HTML</button></a>
         <a class= "button" href="FinalSiteCSS.html"><button type="button">CSS</button></a>
@@ -29,32 +29,32 @@
 
         <div id="text-content-css">
             <h3>Syntax</h3>
-            <p>Etiam nec consequat tellus. Maecenas ante nisl, pharetra eu enim eu, cursus facilisis leo. Quisque quis mi vel nisi molestie rutrum. Proin venenatis faucibus leo, sed iaculis risus ullamcorper vel. Integer eu venenatis arcu. Praesent porta odio purus, at lacinia urna commodo ac. Nam efficitur commodo eros. Ut ac sem in odio luctus blandit. Vestibulum congue sit amet nunc a vulputate. Pellentesque sollicitudin, magna at lobortis dignissim, metus ipsum interdum nisl, eu sodales ex mauris ut dui. Sed posuere turpis eget leo rutrum, condimentum malesuada sapien convallis.</p>
-            <br />
+            <p>While Java and JavaScript are very different languages, it is still possible to draw similarities between their syntax's. The main difference is the typing of variables. JavaScript heavily relies on logical operators and the use of variables to both store input and perform operations/calculations. While simple in theory, the structure allows for looping and methods which aim to reduce the amount of code used and reducing complexity too. Like CSS, semicolons are used to end lines of code and round brackets are for passing values into functions and comparators.
+            </p>
 
             <h3>Methods and Functions</h3>
             <ul>
-                <li><span class="bold">getElementByID</span>: Sed a purus ac mauris laoreet ornare in id lectus.</li>
-                <li><span class="bold">function methodName(){</span>: Sed quis neque at massa euismod iaculis.</li>
-                <li><span class="bold">.innerHTML</span>: Quisque vulputate enim quis ex eleifend semper.</li>
+                <li><span class="bold">getElementByID</span>: Used as a selector to target an HTML element by their ID</li>
+                <li><span class="bold">function methodName(){</span>: The method declaration used to fire JS when the function is called; Typically through a button</li>
+                <li><span class="bold">.innerHTML</span>: Targets the content within the HTML tags and can change content in real-time</li>
                 <li class="bold">Important Concepts
                     <ul>
-                        <li><span class="bold">getMethods</span>: Pellentesque sodales magna non purus faucibus, ac bibendum dui auctor.</li>
-                        <li><span class="bold">Variable Assignments</span>: In laoreet justo sed turpis consectetur, sollicitudin laoreet elit tincidunt.</li>
+                        <li><span class="bold">getMethods</span>: Returns the value of some variable to be used in calculations or another function</li>
+                        <li><span class="bold">Variable Assignments</span>: Giving the variable a value and typing, whether explicitly or implicitly casted</li>
                     </ul>
                 </li>
-                <li><span class="bold">Variables</span>: Nam in elit in nulla luctus tincidunt semper vel nunc.</li>
-                <li><span class="bold">Method Parameters</span>: Maecenas id sapien eget sem eleifend porttitor vitae sit amet nunc.</li>
+                <li><span class="bold">Variables</span>: A named cell that stores a value. Often used to compare with other variables and perform calculations</li>
+                <li><span class="bold">Method Parameters</span>: Variables and values passed into a method or function so it can be used locally</li>
             </ul>
 
-            <br/>
 
             <h3>Variables</h3>
-            <p>Maecenas viverra ullamcorper scelerisque. Nulla quis urna eget nibh efficitur tempor. Etiam vehicula sapien nec lorem viverra scelerisque. Suspendisse elementum purus et eleifend dictum. Duis vitae lacinia leo. Duis risus magna, venenatis ut ante id, posuere scelerisque nulla. Proin finibus pulvinar magna non sollicitudin. In at faucibus turpis, in interdum mauris. Donec et odio sagittis diam commodo cursus. Donec eu pretium justo. Nulla laoreet dui orci, vel condimentum mauris interdum sit amet. Vivamus erat lorem, volutpat ut nunc id, vulputate vestibulum nisl. Proin porta sed mauris a commodo. Ut maximus vulputate metus at ullamcorper.</p>
+            <p> Variables are an essential part of JavaScript and coding in general. They are empty storage cells that when defined, can hold some value. These values are can be manually assigned or updated by the programmer and given a type. While variables can have different types, these types hold different properties and functions too. Most commonly, String and Number variables are used to interact with one another. As a result, problems such as calculations can be solved using these variables and increase the generality while increasing the functionality of code too.
+            </p>
         </div>
         <div id="img-content-css">
-            <img src="ran.png" alt="HTML Logo" />
-            <img src="ran.png" alt="CSS Logo" />
+            <img src="javaSc.png" alt="General JS" class=" wide"/>
+            <img src="syntax2.png" alt="Javascript functions and syntax" />
             <pre>
 <span class="bold">Code Examples Here</span>
 function add(){
@@ -87,7 +87,7 @@ function add(){
 function animateProgressBar() {
     var progressBar =
     document.getElementById("progress-bar");
-    var duration = 4000; // 5 seconds
+    var duration = 4000; // 4 seconds
     var interval = 50;
 
     var start = null;
@@ -98,7 +98,7 @@ function animateProgressBar() {
         progressBar.style.width =
           (progress / duration) * 100 + "%";
 
-        if (progress < duration) {
+        if (progress &lt; duration) {
             requestAnimationFrame(step);
         }
     }
@@ -131,7 +131,7 @@ function updateClock() {
         </div>
         <div id="animations-text">
             <h3>Progress Bar</h3>
-            <p id="ani-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo consectetur nulla, sit amet eleifend mauris tempor ut. Quisque pharetra urna ut diam tempor, vel dignissim enim sollicitudin. Aenean rutrum nisl at hendrerit ornare. Aenean sed facilisis nulla. Duis vel nisi porttitor, interdum ex at, molestie turpis. Nullam sagittis risus non mollis tincidunt. Vestibulum nec pellentesque tortor. Phasellus libero eros, viverra eu sem vel, sagittis laoreet erat. Mauris sit amet nulla vel tortor bibendum vehicula. In hac habitasse platea dictumst.</p>
+            <p id="ani-1">These JavaScript feastures are also quite complex and for most new JavaScript programmers, can be difficult to understand the logic and implementation of the code. This is your typical progress bar often used to show something is loading or being processed. The bar uses times at a regular interval to update and expand the loaded progresses compared to the empty bar drawn as a background. While this feature requires the use of HTML and CSS to even be possible, the complexity heavily lies in the JS and its implementation. Something new I learned while programming this was the use of the ease in function in CSS and then use of requestAnimationFrame to make a smoother animation.</p>
             <div id="progress-container">
                 <div id="progress-bar"></div>
             </div>
@@ -140,7 +140,8 @@ function updateClock() {
 
 
             <h3>Working Clock</h3>
-            <p id="ani-2">Praesent nec fringilla dui. Etiam interdum mattis diam vel convallis. Mauris consectetur a purus quis efficitur. Quisque posuere tincidunt velit, ac accumsan augue pulvinar sed. Maecenas ultricies vulputate ante, vitae commodo justo imperdiet ac. Vivamus ornare metus pellentesque blandit feugiat. Sed tristique nibh sed facilisis bibendum. Donec at placerat ipsum, at tempor nunc. Fusce quam quam, rhoncus ac sapien congue, varius tristique dui. Donec tincidunt metus nec ligula efficitur, id rhoncus elit convallis. Phasellus nec aliquam ipsum, in fringilla ligula. Curabitur mollis ex sed laoreet tincidunt. Nulla facilisi.</p>
+            <p id="ani-2">While making a clock to display the time is not very difficult, simply using the Date feature and associated methods to display the current time, keeping it updated and running was quite the challenge. Learning to update the time was a challenge, and through additional scripts placed within the JS file that were set to run and update the clock at regular intervals, the problem could be achieved efficiently.A clock is not the most difficult feature you can add into a website, but I feel as though it teaches the programmer a lot about JS and its functionality.
+            </p>
 
             <div id="clock"></div>
 
@@ -149,11 +150,11 @@ function updateClock() {
 
 
     <div id="foot">
-        <a href=""><img src="socialMedia.png" alt="Icon" /></a>
-        <a href=""><img src="socialMedia.png" alt="Icon" /></a>
-        <a href=""><img src="socialMedia.png" alt="Icon" /></a>
-        <a href=""><img src="socialMedia.png" alt="Icon" /></a>
-        <a href=""><img src="socialMedia.png" alt="Icon" /></a>
+        <a class="icon" href="https://twitter.com/"><img src="twitter.png" alt="Twitter logo" /></a>
+        <a class="icon" href="https://www.instagram.com/"><img src="insta.png" alt="Instagram logo" /></a>
+        <a class="icon" href="https://discord.com/"><img src="disc2.png" alt="Discord logo" /></a>
+        <a class="icon" href="https://ca.linkedin.com/"><img src="linkdin.png" alt="Linkedin logo" /></a>
+        <a class="icon" href="https://www.reddit.com/"><img src="reddit.png" alt="Reddit logo" /></a>
         <br/>
 
         <a class="link" href="FinalSite.html">Home</a>
